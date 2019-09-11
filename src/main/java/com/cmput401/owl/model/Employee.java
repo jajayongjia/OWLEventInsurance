@@ -2,6 +2,13 @@ package com.cmput401.owl.model;
 
 public class Employee {
 
+	
+	private Integer id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	
+	
 	public Employee() {
 		
 	}
@@ -13,11 +20,7 @@ public class Employee {
 		this.email = email;
 	}
 	
-	private Integer id;
-	private String firstName;
-	private String lastName;
-	private String email;
-	
+
 	public Integer getId() {
 		return id;
 	}

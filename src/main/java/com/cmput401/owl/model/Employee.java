@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.model;
+package com.cmput401.owl.model;
 
 public class Employee {
 

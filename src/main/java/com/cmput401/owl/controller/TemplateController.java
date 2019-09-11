@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.controller;
+package com.cmput401.owl.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.List;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.howtodoinjava.demo.model.Employee;
+import com.cmput401.owl.model.Employee;
 
 @RestController
-public class EmployeeController {
+public class TemplateController {
 	
 	@RequestMapping("/")
     public List<Employee> getEmployees() 

@@ -27,7 +27,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
 # End of https://www.gitignore.io/api/macos
 
 ### Eclipse ###
@@ -65,7 +64,23 @@ local.properties
 .buildpath
 
 # sbteclipse plugin
-.target
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# ignore Maven generated target folders
+target
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+.idea/
+.eclipse
 
 # Tern plugin
 .tern-project
